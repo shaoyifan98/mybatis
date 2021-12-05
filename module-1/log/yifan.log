@@ -1,0 +1,25 @@
+[INFO][21-12-04][com.yifan.dao.Log4JTest]info test
+[DEBUG][21-12-04][com.yifan.dao.Log4JTest]info test
+[ERROR][21-12-04][com.yifan.dao.Log4JTest]info test
+[INFO][21-12-04][com.yifan.dao.Log4JTest]info test
+[DEBUG][21-12-04][com.yifan.dao.Log4JTest]debug test
+[ERROR][21-12-04][com.yifan.dao.Log4JTest]error test
+[INFO][21-12-04][com.yifan.dao.Log4JTest]info test
+[DEBUG][21-12-04][com.yifan.dao.Log4JTest]debug test
+[ERROR][21-12-04][com.yifan.dao.Log4JTest]error test
+[INFO][21-12-04][com.yifan.dao.Log4JTest]info test
+[DEBUG][21-12-04][com.yifan.dao.Log4JTest]debug test
+[ERROR][21-12-04][com.yifan.dao.Log4JTest]error test
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 13226198.
+[DEBUG][21-12-04][com.yifan.dao.UserMapperAnnotation.getUserById]==>  Preparing: select * from user where id = ?
+[DEBUG][21-12-04][com.yifan.dao.UserMapperAnnotation.getUserById]==> Parameters: 1(Integer)
+[DEBUG][21-12-04][com.yifan.dao.UserMapperAnnotation.getUserById]<==      Total: 1
+[DEBUG][21-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@c9d0d6]
+[DEBUG][21-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 13226198 to pool.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--    import properties file-->
+    <properties resource="db.properties">
+<!--        can define extra properties inside this tag-->
+<!--            <property name="xxx" value="xxx"/>-->
+    </properties>
+
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+<!--    set alias name-->
+    <typeAliases>
+<!--        <typeAlias type="com.yifan.pojo.User" alias="User"/>-->
+        <package name="com.yifan.pojo"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <package name="com.yifan.dao"/>
+<!--        <mapper resource="com/yifan/dao/TeacherMapper.xml"/>-->
+    </mappers>
+
+</configuration>
